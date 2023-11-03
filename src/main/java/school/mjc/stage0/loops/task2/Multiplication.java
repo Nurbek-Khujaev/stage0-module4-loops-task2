@@ -13,10 +13,10 @@ public class Multiplication {
             }
         }
 
-        else {
+        else if (multiplyByAndToInclusive < 0) {
             while (cnt >= multiplyByAndToInclusive) {
 
-                System.out.println(cnt * multiplyByAndToInclusive);
+                System.out.println(cnt * multiplyByAndToInclusive * (-1));
                 cnt--;
             }
 

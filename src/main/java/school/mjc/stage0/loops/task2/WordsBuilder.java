@@ -8,11 +8,13 @@ public class WordsBuilder {
 
 
         while (cnt < n) {
-            s = s + chars[cnt];
+            s += chars[cnt];
             cnt++;
         }
 
-        System.out.println(s);
+        System.out.print(s);
 
     }
 }
+
+
