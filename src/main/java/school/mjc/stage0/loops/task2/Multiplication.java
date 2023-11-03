@@ -5,11 +5,24 @@ public class Multiplication {
 
         int cnt = 0;
 
-        while (cnt <= multiplyByAndToInclusive) {
+        if (multiplyByAndToInclusive > 0) {
+            while (cnt <= multiplyByAndToInclusive) {
 
-            System.out.println(cnt * multiplyByAndToInclusive);
-            cnt++;
+                System.out.println(cnt * multiplyByAndToInclusive);
+                cnt++;
+            }
         }
+
+        else {
+            while (cnt >= multiplyByAndToInclusive) {
+
+                System.out.println(cnt * multiplyByAndToInclusive);
+                cnt--;
+            }
+
+        }
+
+
 
     }
 }
